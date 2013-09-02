@@ -28,7 +28,7 @@ function main( workerID )
                         console.log( "   [√]%s Done %s", workerStr, body );
                         queue.shift(); // basic_ack equivalent
                         }
-                    }, 3000 );
+                    }, 4000 );
                 });
             });
         });
